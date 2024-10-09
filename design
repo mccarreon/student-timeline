@@ -1,0 +1,43 @@
+1. Problem
+
+Students need a central hub to see a timeline for their Academic Year. 
+
+Ex:
+
+    |----------------------|------------|-----------------|----------|
+Fall 18               Winter 18     Spring 19       Summer 19     Fall 19
+
+On this timeline, we should be able to specify different events and 
+have them appear on the timeline. 
+
+The following data will be needed to generate the timeline:
+- Academic Year
+  - Academic Periods 
+    - Start/End Date
+
+This should allow us to construct the nodes necessary for an Academic Year.
+
+In order to show an accurate timeline, we would need to show the number of periods in an Academic Year + 1, so we can display any events that occur between the last Academic Period of the selected year, and the first Academic Period of the next year.
+
+Ex: Semester Year:
+- Fall 18
+- Winter 18
+- Spring 19
+- Summer 19
+- Fall 19
+
+Quarter Year:
+- Fall Quarter 18
+- Winter Quarter 18
+- Spring Quarter 19
+- Summer Quarter 19
+- Fall Quarter 19
+
+Trimester Year:
+- Fall 18
+- Winter 18
+- Spring 19
+- Summer 19
+- Fall 18
+
+Nodes should be evenly spaced. 
